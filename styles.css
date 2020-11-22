@@ -2,6 +2,7 @@
 
 :root {
     --primary-color: #7C3AED;
+    --off-white: #F3F4F6;
     --dark-gray: #6B7280;
 }
 
@@ -56,7 +57,6 @@ hr {
 
 /** navigation **/
 
-
 .navigation {
     background-color: var(--primary-color);
     color: white;
@@ -84,7 +84,7 @@ hr {
 
 .hero {
     padding: 2rem;
-    
+
 }
 
 .hero .hero-img {
@@ -100,4 +100,19 @@ hr {
 
 .hero .hero-heading .heading-inverted {
     color: var(--primary-color);
+}
+
+/** sections **/
+
+.section {
+    padding: 2rem;
+}
+
+.section h1 {
+    text-align: center;
+
+}
+
+.ow {
+    background-color: var(--off-white);
 }

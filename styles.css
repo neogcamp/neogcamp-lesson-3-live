@@ -8,6 +8,10 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
+hr {
+    margin: 2rem 0rem;
+}
+
 /** container **/
 .container {
     padding: 0rem 1rem;
@@ -37,3 +41,4 @@ body {
 }
 
 /** look into BEM naming convention for CSS **/
+

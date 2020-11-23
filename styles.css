@@ -15,6 +15,12 @@ hr {
     margin: 2rem 0rem;
 }
 
+/** spaces **/
+
+.margin-md {
+    margin: 2rem;
+}
+
 /** container **/
 .container {
     padding: 0rem 1rem;
@@ -27,8 +33,11 @@ hr {
 
 /** links **/
 .link {
+    box-sizing: border-box;
     text-decoration: none;
     padding: 0.5rem 1rem;
+    /* margin-top: 5rem;
+    margin-bottom: 1rem; */
 }
 
 .link-primary {
@@ -85,6 +94,7 @@ hr {
 
 .hero {
     padding: 2rem;
+    padding-top: 5rem;
 
 }
 
@@ -131,6 +141,11 @@ hr {
 
 .footer .link {
     color: white
+}
+
+.footer .footer-header {
+    font-weight: bold;
+    font-size: large;
 }
 
 .footer ul {
